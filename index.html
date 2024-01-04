@@ -1,0 +1,46 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Currency convertor</h1>
+        <form>
+            <div class="from">
+                <div class="input">
+                    <label for="amount"> Enter Amount </label>
+                    <input id="amount" type="text">
+                </div>  
+                <div class="dropDown">
+                    <P>From</P>
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <label for="symbols"></label>
+                    <select name="symbols" id="symbols">
+                        <option value="Dollar">Dollar</option>
+                        <option value="Ruppee">Ruppee</option>
+                    </select>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="dropDown">
+                    <p>To</p>
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <label for="symbols"></label>
+                    <select name="symbols" id="symbols">
+                        <option value="Dollar">Dollar</option>
+                        <option value="Ruppee" selected>Ruppee</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+   
+   
+    <script src="script.js"></script>
+</body>
+</html>
