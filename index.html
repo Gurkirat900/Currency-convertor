@@ -10,32 +10,38 @@
 </head>
 <body>
     <div class="container">
+       <div class="heading">
         <h1>Currency convertor</h1>
+       </div> 
         <form>
             <div class="from">
                 <div class="input">
                     <label for="amount"> Enter Amount </label>
                     <input id="amount" type="text">
                 </div>  
-                <div class="dropDown">
-                    <P>From</P>
-                    <img src="https://flagsapi.com/US/flat/64.png">
-                    <label for="symbols"></label>
-                    <select name="symbols" id="symbols">
-                        <option value="Dollar">Dollar</option>
-                        <option value="Ruppee">Ruppee</option>
-                    </select>
+                <div class="space-container">
+                    <div class="dropDown">
+                        <P>From</P>
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <label for="symbols"></label>
+                        <select name="symbols" id="symbols">
+                            <option value="Dollar">Dollar</option>
+                            <option value="Ruppee">Ruppee</option>
+                        </select>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="dropDown2">
+                        <p>To</p>
+                        <label for="symbols"></label>
+                        <select name="symbols" id="symbols">
+                            <option value="Dollar">Dollar</option>
+                            <option value="Ruppee" selected>Ruppee</option>
+                        </select>
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                       
+                    </div>
                 </div>
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                <div class="dropDown">
-                    <p>To</p>
-                    <img src="https://flagsapi.com/IN/flat/64.png">
-                    <label for="symbols"></label>
-                    <select name="symbols" id="symbols">
-                        <option value="Dollar">Dollar</option>
-                        <option value="Ruppee" selected>Ruppee</option>
-                    </select>
-                </div>
+                
             </div>
         </form>
     </div>
