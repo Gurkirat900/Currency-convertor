@@ -11,6 +11,12 @@ body{
     background-color: rgb(172, 157, 208);
 }
 
+h1{
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(214, 6, 6);
+}
+
 .container{
     background-color: rgb(229, 224, 186);
     padding: 2rem 2rem;
@@ -32,3 +38,30 @@ body{
 .dropDown2 p{
    margin-left: 4.5rem;
 }
+
+.space-container i{
+    font-size: 1.3rem;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.submit button{
+    background-color: rgb(203, 109, 183);
+    padding: 10px 10px;
+    border-radius: 1rem;
+    font-weight:550;
+    color:rgb(28, 5, 16);
+    border: none;
+    cursor: pointer;
+}
+
+.submit button:hover{
+    opacity: 0.7;
+}
+
+
