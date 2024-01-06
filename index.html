@@ -14,29 +14,37 @@
         <h1>Currency convertor</h1>
        </div> 
         <form>
-            <div class="from">
+            <div class="no use">
                 <div class="input">
                     <label for="amount"> Enter Amount </label>
-                    <input id="amount" type="text">
+                    <input id="amount" type="number" value="1">
                 </div>  
                 <div class="space-container">
-                    <div class="dropDown">
-                        <P>From</P>
-                        <img src="https://flagsapi.com/US/flat/64.png">
-                        <label for="from"></label>
-                        <select name="from" id="symbols">
-                           
-                        </select>
+                    <div class="from">
+                        <div class="dropDown">
+                            <P>From</P>
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <label for="from"></label>
+                            <select name="from" id="symbols">
+                               
+                            </select>
+                        </div>
                     </div>
+                   
                     <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                    <div class="dropDown">
-                        <p class="toTag">To</p>
-                        <label for="To"></label>
-                        <select name="To" id="symbols">
-                           
-                        </select>
-                        <img src="https://flagsapi.com/IN/flat/64.png">
+                    <div class="to">
+                        <div class="dropDown">
+                            <p class="toTag">To</p>
+                            <label for="To"></label>
+                            <select name="To" id="symbols">
+                               
+                            </select>
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                        </div>
                     </div>
+                </div>
+                <div class="msg">
+                    1 USD = 80 INR
                 </div>
                 <div class="submit">
                     <button>Get Exchange Rate</button>
